@@ -1,5 +1,5 @@
 public class MultiplyStrings {
-    public String multiply(String num1, String num2) {
+    public static String multiply(String num1, String num2) {
         int m = num1.length(), n = num2.length();
         int[] pos = new int[m + n];
 
